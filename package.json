@@ -11,7 +11,7 @@
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean --yes && lerna run clean",
     "lint": "lerna run lint --parallel --stream --no-prefix",
-    "test": "npm-run-all -p -l lint test:unit test:depcheck test:depaudit",
+    "test": "npm-run-all -p -l lint test:unit test:depcheck",
     "test:unit": "jest --runInBand --detectOpenHandles --forceExit",
     "test:report": "yarn test && yarn coveralls:push",
     "test:concurrent": "lerna run test --parallel --stream --no-prefix && yarn coverage:merge",
@@ -34,7 +34,7 @@
     "coveralls": "^3.1.1",
     "find-git-root": "^1.0.4",
     "jest": "^27.0.6",
-    "lerna": "git+https://github.com/dougkulak/lerna.git#1ee8dec277b854b6b7efaf2f86df4bf706de3f57",
+    "lerna": "^4.0.0",
     "snazzy": "^9.0.0"
   },
   "repository": {
