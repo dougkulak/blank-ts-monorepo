@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "outDir": "temp/prebuild",
-    "emitDeclarationOnly": true,
+    //the following breaks typedocs
+    //"emitDeclarationOnly": true,
     "declaration": true
   },
   "references": [

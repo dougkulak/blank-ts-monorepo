@@ -1,5 +1,5 @@
 {
-  "name": "blank-ts-monorepo-plugin",
+  "name": "@dougkulak/blank-ts-monorepo-plugin",
   "version": "0.0.0",
   "private": false,
   "publishConfig": {
@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "tslib": "^2.3.1",
-    "blank-ts-monorepo-common": "*"
+    "@dougkulak/blank-ts-monorepo-common": "*"
   },
   "devDependencies": {},
   "peerDependencies": {},

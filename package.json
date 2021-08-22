@@ -1,5 +1,5 @@
 {
-  "name": "blank-ts-monorepo",
+  "name": "@dougkulak/blank-ts-monorepo",
   "version": "0.0.0",
   "description": "Blank TS monorepo",
   "main": "target/es5/index.ts",

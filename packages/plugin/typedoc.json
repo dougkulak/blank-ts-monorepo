@@ -1,5 +1,5 @@
 {
-  "name": "blank-ts-monorepo-plugin",
+  "name": "@dougkulak/blank-ts-monorepo-plugin",
   "out": "./docs",
   "entryPoints": ["src/main"],
   "exclude": ["src/test", "**/node_modules/**", "paralleljs"],

@@ -1,5 +1,5 @@
 {
-  "name": "blank-ts-monorepo-facade",
+  "name": "@dougkulak/blank-ts-monorepo-facade",
   "version": "0.0.0",
   "private": false,
   "publishConfig": {
@@ -41,8 +41,8 @@
   },
   "dependencies": {
     "tslib": "^2.3.1",
-    "blank-ts-monorepo-common": "*",
-    "blank-ts-monorepo-plugin": "*"
+    "@dougkulak/blank-ts-monorepo-common": "*",
+    "@dougkulak/blank-ts-monorepo-plugin": "*"
   },
   "devDependencies": {},
   "peerDependencies": {},

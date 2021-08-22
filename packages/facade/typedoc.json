@@ -1,5 +1,5 @@
 {
-  "name": "blank-ts-monorepo-facade",
+  "name": "@dougkulak/blank-ts-monorepo-facade",
   "out": "./docs",
   "exclude": ["src/test", "**/node_modules/**", "paralleljs"],
   "externalPattern": ["**/node_modules/**"],
